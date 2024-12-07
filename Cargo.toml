@@ -1,0 +1,8 @@
+[package]
+name = "eco"
+version = "0.1.0"
+edition = "2021"
+description = "Print input text to output"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive", "cargo"] }
